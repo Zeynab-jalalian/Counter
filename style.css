@@ -60,3 +60,15 @@ body{
     opacity: 1;
   left: 15px;
 }
+.container #box #number{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color:#00ffff;
+    font-weight: bold;
+    font-size: 22px;
+    user-select: none;
+}
