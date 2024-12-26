@@ -41,3 +41,22 @@ body{
     opacity: 1;
   right: 15px;
 }
+.container .preview{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-top:2px solid #fff;
+    border-left: 2px solid #fff;
+    display: block;
+    transform: translateY(-50%) rotate(315deg);
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+}
+.container:hover .preview{
+    opacity: 1;
+  left: 15px;
+}
